@@ -4,7 +4,7 @@ def integral(a, b, n):
     total = 0
     for i in range(1, n + 1):
         h1 = math.pi / n
-        x1 = i * h1 - h1 / 2
+        x1 = a + i * h1 - h1 / 2
         total += h1 * math.log1p(2 + math.sin(x1))
 
         h2 = (b - a) / n
