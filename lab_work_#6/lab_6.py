@@ -24,10 +24,3 @@ try:
 except ValueError:
     print('Вводьте только целые числа!')
 print(f"Результат: {integral(a, b, n)}")
-
-
-
-
-
-
-
