@@ -38,11 +38,3 @@ B = average_values_rows_matrix(mx_1, m, n)
 T = average_values_rows_matrix(mx_2, m, n)
 
 print(F"Y = {value_Y(B, T)}")
-
-
-
-
-
-
-
-

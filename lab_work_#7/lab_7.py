@@ -33,8 +33,3 @@ del arr
 
 popular_number = appear_the_most(dictionary, b)
 print(F'Наиболее встречаемое число -- {popular_number}')
-
-
-
-
-
