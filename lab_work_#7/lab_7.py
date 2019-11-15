@@ -6,7 +6,7 @@ def array_creation(n, a, b):
 
 def dictionary_creation(array):
     dictionary = {}
-    for i in arr:
+    for i in array:
         dictionary[i] = array.count(i)
     return dictionary
 
@@ -29,7 +29,6 @@ arr = array_creation(n, a, b)
 print(arr)
 
 dictionary = dictionary_creation(arr)
-del arr
 
 popular_number = appear_the_most(dictionary, b)
 print(F'Наиболее встречаемое число -- {popular_number}')
